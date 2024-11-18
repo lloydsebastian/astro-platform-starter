@@ -5,7 +5,7 @@ import { generateBlob, uploadDisabled } from '../../../utils';
 import type { BlobProps } from '../../../types.ts';
 interface Props {
     setLastMutationTime?: Dispatch<SetStateAction<number>>;
-
+}
 
 export default function NewShape(props: Props) {
     const { setLastMutationTime } = props;
