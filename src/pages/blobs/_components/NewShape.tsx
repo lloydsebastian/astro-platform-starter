@@ -3,7 +3,6 @@ import type { Dispatch, SetStateAction } from 'react';
 import ShapePreview from './ShapePreview.tsx';
 import { generateBlob, uploadDisabled } from '../../../utils';
 import type { BlobProps } from '../../../types.ts';
-  // This is a single-line comment
 interface Props {
     setLastMutationTime?: Dispatch<SetStateAction<number>>;
 
